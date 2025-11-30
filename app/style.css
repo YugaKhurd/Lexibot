@@ -1,0 +1,52 @@
+/* A subtle gradient for the main background */
+[data-testid="stAppViewContainer"] {
+    background-color: #f0f2f6;
+    background-image: linear-gradient(to bottom, #dbe2e8, #f0f2f6);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* --- New container for the centered inputs --- */
+.input-container {
+    background-color: #ffffff;
+    padding: 2rem 3rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border: 1px solid #e0e0e0;
+    margin-bottom: 2rem;
+}
+
+/* --- Styling for the Main Content Area --- */
+[data-testid="stAppViewContainer"] > .main {
+    padding-top: 2rem;
+}
+
+/* --- Accent Colors & Interactive Elements --- */
+.stButton>button {
+    background-color: #2c3e50; /* Dark charcoal blue for primary button */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    transition: all 0.2s ease-in-out;
+}
+.stButton>button:hover {
+    background-color: #34495e; /* Lighter charcoal on hover */
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+/* Main Title */
+h1 {
+    color: #2c3e50;
+    text-align: center;
+}
+
+/* Subheaders */
+h2, h3 {
+    color: #34495e;
+    border-bottom: 2px solid #e0e0e0;
+    padding-bottom: 5px;
+}
